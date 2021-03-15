@@ -2,6 +2,7 @@
 
 set "PATH=%INSTALL_DIR%\Scripts;%INSTALL_DIR%;%INSTALL_DIR%\bin;%PATH%"
 set "PYTHONWARNINGS=ignore:DEPRECATION"
+python -m pip install -U ninja==1.8.2
 python -m pip install -U numpy
 python -m pip install -U vcstool
 python -m pip install -U catkin_pkg
